@@ -3,7 +3,7 @@ class BaseConfig(object):
     SECRET_KEY = 'Key'
     DEBUG = True
     TESTING = False
-    SQLALCHEMY_DATABASE_URI= "postgresql+psycopg2://postgres:Rammstein900@localhost:5432/pyalmacen"
+    SQLALCHEMY_DATABASE_URI= "postgresql+psycopg2://postgres:rodrigopedro@database-2.czqukvhuls7s.us-west-2.rds.amazonaws.com:5432/manillo"
 class ProductionConfig(BaseConfig):
     'Produccion configuracion'
     DEBUG = False
